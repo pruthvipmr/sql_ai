@@ -7,7 +7,7 @@ const app: Application = express()
 app.use(cors())
 app.use(express.json())
 
-const API_KEY: string = "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"
+const API_KEY: string = ""
 
 const configuration = new Configuration({
     apiKey: API_KEY
